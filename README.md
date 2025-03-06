@@ -16,7 +16,7 @@ This repository provides the python codes for Physics-Infomred Neural Networks t
 I provide the result of PINN-based estimation from virtual 120 GNSS stations, which is mentioned in Section 3.2 of the paper.
 You can make the various plots (learning curve, frictional parameters, fault slip velocity, crustal deformation, etc) with the Jupyter notebook file "Plot.ipynb" by loading the optimized neural network parameters.
 
-# Frictional paramter estimation with PINN
+# Frictional parameter estimation with PINN
 "PINNs_for_3DSSE_RSFparam_Est.py" is the Python code to conduct the PINN-based frictional parameter inversion from GNSS observation. The optimized neural network parameters are saved as .pth file, and you can make the plot of the result by using "Plot.ipynb".
 
 This code needs to load the following information from the other file:
